@@ -6,3 +6,7 @@ public void setup(){
   posicionMario = 5;
   posicionKoopa = 10;
 }
+
+public void calcularDistancia(){
+  distanciaMK = posicionKoopa - posicionMario;
+}
