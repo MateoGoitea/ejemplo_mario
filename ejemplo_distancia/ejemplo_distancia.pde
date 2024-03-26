@@ -10,3 +10,7 @@ public void setup(){
 public void calcularDistancia(){
   distanciaMK = posicionKoopa - posicionMario;
 }
+
+public void mostrarDistancia(){
+  println("El resultado es "+distanciaMK);
+}
